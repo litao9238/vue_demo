@@ -1,0 +1,16 @@
+- 可复用组件的目录，此目录一般情况下不需要再添加代码，如有新的组件需要添加，请按下面的结构添加
+- 当前组件包括三部分:
+    - 页面框架组件:
+        - header: 头部内容
+            - Quotations: 市场行情栏
+            - ToolBar: 工具栏
+        - footer: 底部内容
+            - Linker: 友情链接
+            - FooterMemu: 底部菜单
+    - 常用可复用组件，自定义组件
+        - common:
+            - SimpleKline： 简易K线图
+    - 组合组件
+        - optimize: 为了方便使用，先初步封装。
+            - QuotationsTable: 各种交易区市场行情价格表
+        
